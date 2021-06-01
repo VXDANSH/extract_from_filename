@@ -1,7 +1,7 @@
 import os
 
-print("Remember to cd to wherever your files are, before running this program!!")
-files = os.listdir("/Users/vedansh/Desktop/files")
+file_location = input("Input your path for folder with files:    ")
+files = os.listdir()
 
 landmark = input("Landmark for files (will get files before this character):     ")
 
