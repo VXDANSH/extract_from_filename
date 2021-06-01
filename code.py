@@ -1,7 +1,7 @@
 import os
 
 file_location = input("Input your path for folder with files:    ")
-files = os.listdir()
+files = os.listdir(file_location)
 
 landmark = input("Landmark for files (will get files before this character):     ")
 
