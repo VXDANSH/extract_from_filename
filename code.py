@@ -7,5 +7,5 @@ landmark = input("Landmark for files (will get files before this character):    
 
 for file in files:
     pos_of_landmark = file.find(landmark)
-    account_number = file[:pos_of_landmark]
-    print(account_number)
+    values_before_landmark = file[:pos_of_landmark]
+    print(values_before_landmark)
